@@ -12,6 +12,7 @@ struct Person {
     let lastName: String
     
     var createName: String {
+        print("One two three four five")
         return "\(firstName) \(lastName)"
     }
 }
